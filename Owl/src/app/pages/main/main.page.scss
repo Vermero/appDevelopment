@@ -1,0 +1,55 @@
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+  }
+
+
+.main{
+    
+  display: flex;  
+  flex-direction: column;
+
+  background-color: var(--owl-secondary-background);
+  
+  height: 100%;
+  --footer-height: calc(7.4rem + var(--ion-safe-area-bottom));
+
+  &-body{
+    height: calc(100% - var(--footer-height));
+    overflow-y: scroll;
+  }
+  
+  &-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: var(--footer-height);
+    background-color: var(--owl-primary-background);
+    box-shadow: 0px 1px 14px #19282F;
+    border-radius: 25px 25px 0px 0px;
+
+    &-icon{
+      padding: 1.25rem;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      --icon-color: var(--owl-buttom);
+
+      &-selected{
+        --icon-color: var(--owl-buttom-highlight);
+      }
+      
+      ion-icon{
+        height: 2.4rem;
+        width: 2.4rem;
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+
+      
+    
+
+}
+  
