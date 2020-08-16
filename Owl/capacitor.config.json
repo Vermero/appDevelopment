@@ -1,0 +1,13 @@
+{
+  "appId": "com.vermero.owlapp",
+  "appName": "Owl",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

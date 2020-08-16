@@ -1,0 +1,7 @@
+{
+  "name": "Owl",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
